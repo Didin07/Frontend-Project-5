@@ -15,6 +15,10 @@
     <!-- Feather Icons -->
     <script src="https://unpkg.com/feather-icons"></script>
 
+    <!-- Axios JS For Requesting to Database -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="C:/Users/blitz/Documents/GitHub/Backend-Project-5/routes/routes.js"></script>
+
     <!-- My Style -->
     <link rel="stylesheet" href="css/style.css" />
 </head>
@@ -84,22 +88,22 @@
         <div class="form">
             <form action="">
                 <div class="input-daftar">
-                    <i data-feather="user"></i>
+                    <i data-feather="user" id="user"></i>
                     <input type="text" placeholder="Nama peserta" />
                 </div>
                 <div class="input-daftar">
-                    <i data-feather="phone"></i>
+                    <i data-feather="phone" id="phone"></i>
                     <input type="text" placeholder="No telp peserta" />
                 </div>
                 <div class="input-daftar">
-                    <i data-feather="map-pin"></i>
+                    <i data-feather="map-pin" id="map"></i>
                     <input type="text" placeholder="Alamat peserta" />
                 </div>
                 <div class="input-daftar">
-                    <i data-feather="mail"></i>
+                    <i data-feather="mail" id="email"></i>
                     <input type="text" placeholder="Email peserta" />
                 </div>
-                <div class="input-daftar">
+                <div class="input-daftar" id="registrasi">
                     <input type="radio" id="Pria" name="Jenis Kelamin" /><label for="Pria">Pria</label
             >
 
